@@ -277,3 +277,42 @@ body {
   opacity: 0.6;
   margin-bottom: 0;
 }
+/* end */
+
+/* opinion section styles */
+.opinion-question-container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+}
+.opinion-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  font-weight: 600;
+  padding: 36px 24px;
+  text-align: left;
+}
+th {
+  font-size: 20px;
+  background-color: #c6e4d6;
+}
+.table-head-content-1 {
+  padding: 24px;
+}
+.table-head-content-2 {
+  padding: 24px 0 24px;
+}
+
+.dropdown {
+  background-color: #c6e4d6;
+  width: 100%;
+  font-weight: 500;
+  border: 1px solid #0e0e0e;
+  border-radius: 4px;
+  padding: 12px 16px;
+  outline: none;
+}
