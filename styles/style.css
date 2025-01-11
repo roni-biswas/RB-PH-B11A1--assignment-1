@@ -244,3 +244,36 @@ body {
   border: 1px solid #ffc239;
   box-shadow: 0px 6px 16px 0 rgba(255, 194, 57, 0.4);
 }
+
+/* quote section styles */
+
+.quote-section {
+  margin-top: 32px;
+}
+
+.quote-section .quote-card-container {
+  padding: 48px 24px;
+}
+
+.quote-card-container {
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: top 10% left 2%;
+}
+
+.quote-card-container .quote-description {
+  opacity: 0.8;
+  line-height: 30px;
+  margin-bottom: 12px;
+}
+
+.quote-card-container .quote-title {
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.quote-card-container .quote-short-bio {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
