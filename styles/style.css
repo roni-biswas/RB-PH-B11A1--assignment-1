@@ -402,3 +402,49 @@ th {
   color: rgba(14, 14, 14, 0.6);
 }
 /* end */
+
+/* newsletter styles */
+.newsletter-container {
+  background-color: var(--bg-color);
+  border-radius: 24px;
+  height: 395px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter-container .newsletter-content {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-container {
+  display: flex;
+}
+
+.newsletter-content input[type="email"] {
+  width: 600px;
+  padding: 18px 0 18px 40px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.6);
+}
+
+.newsletter-content .subscribe-btn {
+  box-shadow: none;
+  border-radius: 0 8px 8px 0;
+}
+
+.newsletter-content .promise-not-spam {
+  font-size: 16px;
+  opacity: 0.7;
+  margin-top: 24px;
+}
+
+/* end */
