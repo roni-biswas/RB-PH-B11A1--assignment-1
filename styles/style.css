@@ -90,6 +90,10 @@ body {
   margin-bottom: 12px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* header styles */
 .header {
   width: 100%;
@@ -348,3 +352,53 @@ th {
 .news-content .news-time {
   margin-bottom: 12px;
 }
+/* end */
+
+/* donate section styles */
+
+.donate-section .donate-cards {
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.donate-cards .card .amount-taka {
+  font-size: 40px;
+  font-weight: 700;
+  opacity: 0.8;
+  background: none;
+  border: none;
+  padding: 40px;
+  cursor: pointer;
+  width: 250px;
+  text-align: center;
+  outline: none;
+}
+
+.donate-cards .card .amount-taka:hover {
+  background-color: var(--bg-color);
+  border-radius: 16px;
+}
+
+.donate-cards .card .amount-taka.active {
+  background-color: var(--bg-color);
+  border-radius: 16px;
+}
+
+.donate-cards .card .amount-taka:focus {
+  border-radius: 16px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.donate-section .other-amount {
+  margin: 0 auto;
+  margin-bottom: 32px;
+  font-size: 20px;
+  width: 80%;
+  display: block;
+  outline: none;
+  border-radius: 0;
+  padding: 20px;
+  color: rgba(14, 14, 14, 0.6);
+}
+/* end */
