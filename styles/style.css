@@ -451,6 +451,7 @@ th {
 
 /* footer styles */
 .footer {
+  width: 100%;
   background-color: #ffffff;
   padding-top: 50px;
   padding-bottom: 50px;
